@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 3vmax;
+    background-color: #434344;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.nav h5{
+    font: 500 14px "Calibri";
+    color: rgb(232, 228, 228);
+}
+.nav i{
+    color: white;
+}
+.nav2{
+    width: 100%;
+    height: 3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 2vmax;
+}
+.center h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.center h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 1vmax;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    margin-right: 20px;
+    font-size: 18px;
+    color: royalblue;
+
+}
