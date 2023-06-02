@@ -7,11 +7,51 @@ html,body{
     width: 100%;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
 }
 .page1{
     width: 100%;
     height: 100%;
     padding-top: 3vmax;
+}
+#slide{
+    width: 100%;
+    height: 50%;
+    background-color: #434344;
+    position: absolute;
+    top: -100%;
+    transition: all ease 1s;
+    display: flex;
+    padding: 5vmax 21vmax;
+}
+.row{
+        margin-right: 1vmax;
+        color: white;
+}
+ul{
+    list-style: none;
+}
+#slide h5{
+    font-size: 14px;
+    opacity: 0.6;
+}
+#two{
+    margin-right: 5vmax;
+    font-size: 1.5vmax;
+    line-height: 2vmax;
+}
+#three{
+    margin-right: 5vmax;
+    font-size: 1vmax;
+    line-height: 1.5vmax;
+
+}
+#four{
+    font: 1vmax;
+    line-height: 1.5vmax;
+}
+#one{
+    cursor: pointer;
 }
 .nav{
     width: 100%;
@@ -102,7 +142,7 @@ a:hover{
 }
 .page3-left{
     width: 50%;
-    height: 100%;
+    height: 99%;
     background-color: white;
     background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large_2x.jpg);
     background-position: center;
@@ -112,11 +152,14 @@ a:hover{
     align-items: center;
     flex-direction: column;
     color: white;
+    margin-left: 1vmax;
+    margin-right: 0.5vmax;
+    margin-bottom: 1vmax;
 }
 .page3-left p{
     color: rgb(238, 77, 77);
     margin-top: 0.3vmax;
-    /* margin-bottom: 0.5vmax; */
+
 }
 .page3-left h2{
     margin: 0.5vmax 0;
@@ -124,7 +167,7 @@ a:hover{
 }
 .page3-right{
     width: 50%;
-    height: 100%;
+    height: 99%;
     background-color: black;
     background-image: url(https://www.apple.com/v/home/ba/images/promos/ipad/promo_ipad__fioegapg12qi_large_2x.jpg);
     background-position: center;
@@ -133,6 +176,7 @@ a:hover{
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin: 0vmax 1vmax 1vmax 0.5vmax;
    
 }
 .page3-right h1{
@@ -156,6 +200,7 @@ a:hover{
     align-items: center;
     flex-direction: column;
     color: white;
+    margin: 0.5vmax 0.5vmax 0.5vmax 1vmax;
 }
 .page4-right{
     width: 50%;
@@ -169,6 +214,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     color: white;
+   margin: 0.5vmax 1vmax 1vmax 0.5vmax;
 }
 .page4-left h1{
     margin-top: 0.3vmax;
